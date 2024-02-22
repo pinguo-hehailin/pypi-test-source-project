@@ -1,4 +1,4 @@
-from sub_package.another_helper import SomeHelper
+from package_hhl_test.sub_package.another_helper import SomeHelper
 
 
 class Helper:
@@ -6,6 +6,5 @@ class Helper:
         self.inner_helper = SomeHelper()
         pass
 
-    @staticmethod
-    def get_value(a: str):
-        return f', {a}'
+    def get_value(self, a: str):
+        return self.inner_helper.say_hi(a)
