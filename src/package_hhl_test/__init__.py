@@ -1,1 +1,1 @@
-# import test_module.another_helper
+from sub_package.another_helper import SomeHelper
