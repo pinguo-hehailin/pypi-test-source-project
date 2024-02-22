@@ -1,4 +1,4 @@
-from sub_module.another_helper import SomeHelper
+from sub_package.another_helper import SomeHelper
 
 
 class Helper:
